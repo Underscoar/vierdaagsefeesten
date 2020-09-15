@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vierdaagsefeesten Nijmegen</title>
+  </head>
+  <body class="bg-purple text-white">
+    <div class="z-20 logo-contain absolute w-full flex justify-center">
+      <div class="logo-wrap">
+        <img src="../assets/Logo.svg" alt="">
+        <div class="logo-sub text-sm text-center transform -translate-y-4">
+          <span class="block font-thin">18-24 juli 2021</span>
+          <span class="block font-medium">Nijmegen</span>
+        </div>
+      </div>
+    </div>
+    <nav class="z-30 w-full fixed flex justify-between">
+      <div>
+        <img class="m-5 cursor-pointer" src="../assets/heart.svg" alt="">
+      </div>
+      <div>
+        <img src="../assets/Group 21.svg" alt="">
+        <img onClick="toggleMenu();" class="cursor-pointer absolute top-0 right-0" src="../assets/Rectangle-3.svg" alt="">
+        <img onClick="toggleMenu();" class="cursor-pointer absolute top-0 right-0 m-5" src="../assets/Menu.svg" alt="">
+      </div>
+    </nav>
+
+    <div id="menu" class="menu menu-hidden fixed h-screen w-screen z-20 bg-purple">
+      <!-- Doorzichtig logo fixed hier enzo. En de rest -->
+    </div>
+
+    <header class="flex flex-col sm:flex-row">
+      <div class="carousel-contain w-full sm:w-2/4 relative bg-gradient-to-b from-purpleLight">
+        <img class="absolute max-w-none h-full top-0 right-0" src="../assets/Roze vorm 2_edit.png" alt="">
+        <img class="absolute max-w-none h-full top-0" src="../assets/Roze vorm_edit.png" alt="">
+        <img class="blaadjes absolute max-w-none bottom-0 transform translate-y-4" src="../assets/Blaadjes.svg" alt="">
+        <div class="header-img-wrap">
+          <img class="absolute w-full h-full object-cover" src="../assets/img/pexels-luis-quintero-1587646.jpg" alt="">
+        </div>
+        <div class="indicators-wrap relative flex justify-center z-10">
+          <ul class="flex">
+            <li class="w-2 h-2 rounded-full cursor-pointer bg-white m-1"></li>
+            <li class="w-2 h-2 rounded-full cursor-pointer bg-purpleAccent m-1"></li>
+            <li class="w-2 h-2 rounded-full cursor-pointer bg-purpleAccent m-1"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-10 sm:mt-0 sm:w-2/4 p-6 sm:p-32">
+        <div class="link flex justify-between border-b border-purpleAccent pb-6">
+          <div class="link-text flex flex-col">
+            <span class="block font-medium text-2xl">7 thema's</span>
+            <span class="hidden sm:block font-hairline">Onder titel lorem ipsum dolor sit</span>
+          </div>
+          <div class="link-chevron">
+            <img class="h-full" src="../assets/arrow-right copy.svg" alt="">
+          </div>
+        </div>
+
+        <div class="link flex justify-between border-b border-purpleAccent pb-6 mt-6">
+          <div class="link-text flex flex-col">
+            <span class="block font-medium text-2xl">Doe maar duurzaam</span>
+            <span class="hidden sm:block font-hairline">Duurzaam festival van deze tijd</span>
+          </div>
+          <div class="link-chevron">
+            <img class="h-full" src="../assets/arrow-right copy.svg" alt="">
+          </div>
+        </div>
+
+        <div class="link flex justify-between border-b border-purpleAccent pb-6 mt-6">
+          <div class="link-text flex flex-col">
+            <span class="block font-medium text-2xl">40 locaties</span>
+            <span class="hidden sm:block font-hairline">Onder titel lorem ipsum dolor sit</span>
+          </div>
+          <div class="link-chevron">
+            <img class="h-full" src="../assets/arrow-right copy.svg" alt="">
+          </div>
+        </div>
+
+        <div class="link flex justify-between pb-6 mt-6">
+          <div class="link-text flex flex-col">
+            <span class="block font-medium text-2xl">Info & Partners</span>
+            <span class="hidden sm:block font-hairline">Duurzaam festival van deze tijd</span>
+          </div>
+          <div class="link-chevron">
+            <img class="h-full" src="../assets/arrow-right copy.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="relative mt-6 h-screen bg-pink sm:bg-purple sm:mt-0">
+      <div class="clip-div bg-purple sm:hidden"></div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>

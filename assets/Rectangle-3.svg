@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="98px" viewBox="0 0 109 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>02370B97-90A3-4B03-832B-78719B5DAA4F</title>
+    <defs>
+        <linearGradient x1="75.2170225%" y1="10.6782241%" x2="39.0490679%" y2="94.5927514%" id="linearGradient-1">
+            <stop stop-color="#7C7FBB" offset="0%"></stop>
+            <stop stop-color="#E36986" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="292" y="-48" width="112" height="112"></rect>
+        <filter x="-27.7%" y="-25.9%" width="155.4%" height="155.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.284937719 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Visueel-ontwerp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-04" transform="translate(-266.000000, 0.000000)">
+            <g id="Rectangle" transform="translate(348.000000, 8.000000) rotate(-17.000000) translate(-348.000000, -8.000000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

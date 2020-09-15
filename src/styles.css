@@ -1,0 +1,47 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins'
+}
+
+.header-img-wrap {
+  height: 500px;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 86%, 59% 100%, 14.89% 91.50%, 0 81%);
+}
+
+.indicators-wrap {
+  top: 20px;
+}
+
+.blaadjes {
+  width: 200px;
+}
+
+.clip-div {
+  height: 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 39%, 50% 100%);
+}
+
+.menu {
+  transition: transform 0.4s;
+  transition-timing-function: cubic-bezier(0,.6,0,1);
+  bottom: 100vh;
+  left: 0;
+}
+.menu-active {
+  transform: translateY(100%);
+}
+
+@media(min-width: 640px) {
+  .header-img-wrap {
+    height: 600px;
+  }
+
+  .carousel-contain {
+    height: 700px;
+  }
+}
